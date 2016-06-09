@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements TabHost.OnTabChan
     private LayoutInflater mLayoutInflater;
 
 
-    private String[] mTextArray = {"首页", "消息", "好友", "搜索"/*, "更多"*/};
+    private String[] mTextArray = {"首页", "消息", "好友", "搜索", "更多"};
 //sss
     /*private  int[] mImageArray = {R.drawable.tab_home_selector,
             R.drawable.tab_message_selector, R.drawable.tab_selfinfo_selector,
@@ -42,13 +42,13 @@ public class MainActivity extends AppCompatActivity implements TabHost.OnTabChan
             R.drawable.tab_icon_me, R.drawable.tab_icon_tweet*//*,
             R.drawable.tab_search_selector, R.drawable.tab_more_selector*//*};*/
 
-    /*private  int[] mImageArray = {R.drawable.tab_message,
+    private  int[] mImageArray = {R.drawable.tab_message,
             R.drawable.tab_ding, R.drawable.tab_work,
-            R.drawable.tab_contact, R.drawable.tab_mine};*/
+            R.drawable.tab_contact, R.drawable.tab_mine};
 
-    private  int[] mImageArray = {R.drawable.tab_wk,
+    /*private  int[] mImageArray = {R.drawable.tab_wk,
             R.drawable.tab_lianxi, R.drawable.tab_msg,
-            R.drawable.tab_more};
+            R.drawable.tab_more};*/
 
     private  Class[] mFragmentArray = {
             Fragment1.class,
