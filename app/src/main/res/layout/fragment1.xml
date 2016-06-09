@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:background="@drawable/icon_user_login_bg">
 
-        <com.crystal.fragmenttabhostdemo.widget.CircleImageView
+        <com.crystal.fragmenttabhostapp.widget.CircleImageView
             android:layout_width="56dp"
             android:layout_height="56dp"
             app:border_width="2dp"
