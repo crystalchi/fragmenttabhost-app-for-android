@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements TabHost.OnTabChan
         }
         mTabHost.getTabWidget().setDividerDrawable(null);
         mTabHost.setOnTabChangedListener(this);
-        mTabHost.setCurrentTab(0); //默认选中第一
+        mTabHost.setCurrentTab(0); //默认选中第一项
         //默认选中此项时字体变色
         ((TextView)mTabHost.getTabWidget().
                 getChildAt(0).findViewById(R.id.tv_tab_text)).setTextColor(getResources().getColor(R.color.theme_color));
